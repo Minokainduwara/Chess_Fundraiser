@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minokainduwara/Chess_Fundraiser.git"
+  },
+  "author": "Minoka_Wickramasinghe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Minokainduwara/Chess_Fundraiser/issues"
+  },
+  "homepage": "https://github.com/Minokainduwara/Chess_Fundraiser#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.2",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
