@@ -1,0 +1,77 @@
+# ===================================
+# 🌐 MERN Stack Project .gitignore
+# ===================================
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Environment Variables ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs ---
+logs
+*.log
+logs/*.log
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Build Outputs ---
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+*.tgz
+
+# --- Editor Config ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- React/Vite Frontend ---
+client/node_modules/
+client/build/
+client/dist/
+client/.env
+client/.DS_Store
+
+# --- Server Backend ---
+server/node_modules/
+server/.env
+server/logs/
+server/uploads/
+server/tmp/
+
+# --- Test Coverage ---
+coverage/
+*.lcov
+
+# --- Optional: Ignore database dumps or sensitive files ---
+dump.rdb
+*.sql
+*.sqlite
+*.db
+
+# --- Misc ---
+*.bak
+*.tmp
+*.old
