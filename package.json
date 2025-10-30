@@ -17,6 +17,7 @@
   "homepage": "https://github.com/Minokainduwara/Chess_Fundraiser#readme",
   "description": "",
   "dependencies": {
+    "chokidar": "^4.0.3",
     "express": "^5.1.0",
     "mongodb": "^6.20.0",
     "mongoose": "^8.19.2",
