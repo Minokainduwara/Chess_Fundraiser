@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 import express from 'express';
 import routes from './src/routes/fundraiseRoutes';
+import bodyParser from 'body-parser';
 const app = express();
 const PORT = process.env.PORT || 4000;
 
@@ -23,5 +24,5 @@ mongoose.connect('mongodb+srv://fund:1234@cluster0.tvkdin8.mongodb.net/?appName=
     useUnifiedTopology: true
 })
 
-app.use(bodyParseer.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
