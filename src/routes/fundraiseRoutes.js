@@ -1,3 +1,5 @@
+import { addNewFundraiser } from "../controllers/fundraisingController";
+
 const routes = (app) => {
     //fundraiser routes
     app.route('/fundraising')
@@ -5,10 +7,8 @@ const routes = (app) => {
             // Logic to get all fundraising campaigns
             res.send('Get all fundraising campaigns');
         })
-        .post((req, res) => {
-            // Logic to create a new fundraising campaign
-            res.send('Create a new fundraising campaign');
-        });
+        
+        .post(addNewFundraiser);
 
     
     //fundraiser by ID routes
