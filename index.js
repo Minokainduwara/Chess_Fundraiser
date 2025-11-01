@@ -18,7 +18,7 @@ routes(app);
 //mongoose connection
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/fundraiserdatabase', {
+mongoose.connect('mongodb+srv://fund:1234@cluster0.tvkdin8.mongodb.net/?appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
